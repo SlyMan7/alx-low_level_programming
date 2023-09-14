@@ -5,7 +5,6 @@
  *print_time_table - function to Prints the 9 times table, starting with 0
  *@param n The number to start the times table from
  *Return void
- *
  */
 void times_table(void)
 {

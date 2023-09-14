@@ -20,10 +20,8 @@ int main(void)
 			putchar(' ');
 			putchar(j + '0');
 			if (i != 8 || j != 9)
-			{
-				putchar('\n');
-			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
