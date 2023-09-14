@@ -2,28 +2,40 @@
 #include <stdio.h>
 
 /**
- *print_time_table - function to Prints the 9 times table, starting with 0
+ *times_table - Prints the 9 times table, starting with 0
  *@param n The number to start the times table from
  *Return void
  */
 void times_table(void)
 {
-	int i, j, result;
+		int i, j, k;
 
-	for (i = 0 ; i < 10 ; i++)
-	{
-		for (j = 0 ; j < 10 ; j++)
+
+		for (i = 0; i < 10; i++)
 		{
-			result = i * j;
-			if (j == 0)
-				printf("%d,", result);
-			else
+			for (j = 0; j < 10; j++)
 			{
-				printf("%2d", result);
-				if (j != 9)
-					printf(", ");
+				k = j * i;
+				if (j == 0)
+				{
+					_putchar(k + '0');
+				}
+
+
+				if (k < 10 && j != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(k + '0');
+				} else if (k >= 10)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar((k / 10) + '0');
+					_putchar((k % 10) + '0');
+				}
 			}
+			_putchar('\n');
 		}
-		printf("\n");
-	}
 }
