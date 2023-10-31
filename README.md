@@ -1,28 +1,18 @@
-# More functions, more nested loops
-
-Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about nested loops in **C language**.
-
-## Technologies
-* C files are compiled using `gcc 4.8.4`
-* C files are written according to the C90 standard
-* Tested on Ubuntu 14.04 LTS
-
-## Files
-All of the following files are programs written in C:
-
-| Filename | Description |
-| -------- | ----------- |
-| `0-isupper.c` | Checs for uppercase character |
-| `1-isdigit.c` | Checks for a digit (`0` through `9`) |
-| `2-mul.c` | Multiplies two integers |
-| `3-print_numbers.c` | Prints the numbers, from `0` to `9` |
-| `4-print_most_numbers.c` | Prints the numbers, from `0` to `9`, except `2` and `4` |
-| `5-more_numbers.c` | Prints 10 times the numbers, from `0` to `14` |
-| `6-print_line.c` | Draws a straight line in the terminal |
-| `7-print_diagonal.c` | Draws a diagonal line in the terminal |
-| `8-print_square.c` | Prints a sqaure |
-| `9-fizz_buzz.c` | Prints Fizz-Buzz test |
-| `10-print_triangle.c` | Prints a triangle |
-| `100-prime_factor.c` | Finds and prints the largest prime factor of the number `612852475143` |
-| `101-print_number.c` | Prints an integer |
+0x13. C - More singly linked lists
+project
+0. Write a function that prints all the elements of a listint_t list.
+1. Write a function that returns the number of elements in a linked listint_t list.
+2. Write a function that adds a new node at the beginning of a listint_t list.
+3. Write a function that adds a new node at the end of a listint_t list.
+4. Write a function that frees a listint_t list.
+5. Write a function that frees a listint_t list.
+6. Write a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+7. Write a function that returns the nth node of a listint_t linked list.
+8. Write a function that returns the sum of all the data (n) of a listint_t linked list.
+9. Write a function that inserts a new node at a given position.
+10. Write a function that deletes the node at index index of a listint_t linked list.
+11. Write a function that reverses a listint_t linked list.
+12. Write a function that prints a listint_t linked list.
+13. Write a function that frees a listint_t list.
+14. Write a function that finds the loop in a linked list.
 
