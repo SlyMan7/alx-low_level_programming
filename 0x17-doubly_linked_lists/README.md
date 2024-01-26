@@ -1,2 +1,2 @@
-0x17 Project
-C - Doubly linked lists
+ Project 0x017
+Doubly Linked Lists
